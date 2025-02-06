@@ -21,3 +21,11 @@ texture = ExtResource("4_omaaj")
 hframes = 10
 vframes = 10
 frame = 42
+
+[node name="Sprite2D2" type="Sprite2D" parent="."]
+visible = false
+position = Vector2(105, 105)
+texture = ExtResource("4_omaaj")
+hframes = 10
+vframes = 10
+frame = 52
