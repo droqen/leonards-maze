@@ -1,0 +1,23 @@
+[gd_scene load_steps=4 format=4 uid="uid://bffbg02p6ux8y"]
+
+[ext_resource type="Script" path="res://premain.gd" id="1_ho0kx"]
+[ext_resource type="TileSet" uid="uid://byl5vqsl3hdkr" path="res://tiles_tiles.tres" id="2_ioxof"]
+[ext_resource type="Texture2D" uid="uid://kgq3kbbuqv3f" path="res://tiles.png" id="4_omaaj"]
+
+[node name="premain" type="Node2D"]
+script = ExtResource("1_ho0kx")
+
+[node name="leonards_maze" type="TileMapLayer" parent="."]
+tile_map_data = PackedByteArray("AAAHAAgAAAABAAAAAAAIAAgAAAACAAAAAAAJAAgAAAADAAAAAAAKAAgAAAAEAAAAAAANAAgAAAAHAAAAAAAMAAgAAAAGAAAAAAALAAgAAAAFAAAAAAA=")
+tile_set = ExtResource("2_ioxof")
+
+[node name="press_space_to_play" type="TileMapLayer" parent="."]
+tile_map_data = PackedByteArray("AAAHAAgAAAABAAAAAAAIAAgAAAACAAAAAAAJAAgAAAADAAAAAAAKAAgAAAAEAAAAAAANAAgAAAAHAAAAAAAMAAgAAAAGAAAAAAALAAgAAAAFAAAAAAAHAAwAAAABAAYAAAAIAAwAAAACAAYAAAAJAAwAAAADAAYAAAAKAAwAAAAEAAYAAAALAAwAAAAFAAYAAAAMAAwAAAAGAAYAAAANAAwAAAAHAAYAAAA=")
+tile_set = ExtResource("2_ioxof")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+position = Vector2(105, 125)
+texture = ExtResource("4_omaaj")
+hframes = 10
+vframes = 10
+frame = 42

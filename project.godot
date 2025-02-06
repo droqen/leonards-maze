@@ -11,10 +11,12 @@ config_version=5
 [application]
 
 config/name="leonard's maze"
-run/main_scene="uid://cn32o754kmr7t"
-config/features=PackedStringArray("4.4", "GL Compatibility")
+run/main_scene="res://premain.tscn"
+config/features=PackedStringArray("4.3", "GL Compatibility")
 boot_splash/bg_color=Color(0.145098, 0.121569, 0.180392, 1)
-config/icon="res://icon.svg"
+boot_splash/image="res://icon.png"
+boot_splash/fullsize=false
+config/icon="res://icon.png"
 
 [display]
 

@@ -1,8 +1,8 @@
 [gd_scene load_steps=7 format=4 uid="uid://cn32o754kmr7t"]
 
-[ext_resource type="Script" uid="uid://d3mwk708dt6wl" path="res://main.gd" id="1_1bvp3"]
+[ext_resource type="Script" path="res://main.gd" id="1_1bvp3"]
 [ext_resource type="TileSet" uid="uid://byl5vqsl3hdkr" path="res://tiles_tiles.tres" id="1_ig7tw"]
-[ext_resource type="Script" uid="uid://crfcgicck0exi" path="res://player.gd" id="2_h2yge"]
+[ext_resource type="Script" path="res://player.gd" id="2_h2yge"]
 [ext_resource type="Texture2D" uid="uid://kgq3kbbuqv3f" path="res://tiles.png" id="3_1bvp3"]
 [ext_resource type="AudioStream" uid="uid://f4eu5vam0rln" path="res://ppacintro.mp3" id="5_lquwl"]
 [ext_resource type="AudioStream" uid="uid://cbsst4y6iusd6" path="res://paccnoise.mp3" id="6_7mycd"]

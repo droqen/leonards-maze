@@ -23,7 +23,8 @@ func _physics_process(_delta: float) -> void:
 	if leonard: spr.frame += 10
 	if wobble > 20: spr.frame += 1
 	if leonard:
-		pass
+		if randf() < 0.01:
+			movingdir = (face+2)%4
 	else:
 		if Input.is_action_just_pressed("ui_right"): movingdir = 0
 		if Input.is_action_just_pressed("ui_up"): movingdir = 1
@@ -35,7 +36,6 @@ func _physics_process(_delta: float) -> void:
 		if can_turn_dir(movingdir):
 			var cell = maze.local_to_map(position)
 			face = movingdir
-			prints("turn from",cell,"dir",face)
 	
 	if position.x <=  -5: position.x = 215-1
 	if position.x >= 215: position.x =  -5+1
