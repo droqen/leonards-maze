@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://db43krtrywf5x"
-path="res://.godot/imported/itch-cover.png-e8ad1d9e64cf25a8ed0c6ad8fdf8a657.ctex"
+path="res://.godot/imported/itch-cover.png-e617047a4710831565628733d2cce6f2.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://itch-cover.png"
-dest_files=["res://.godot/imported/itch-cover.png-e8ad1d9e64cf25a8ed0c6ad8fdf8a657.ctex"]
+source_file="res://maze_1/itch-cover.png"
+dest_files=["res://.godot/imported/itch-cover.png-e617047a4710831565628733d2cce6f2.ctex"]
 
 [params]
 
